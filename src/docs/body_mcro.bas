@@ -1,7 +1,11 @@
 Sub Macro1()
 '
 ' Macro1 Macro
-'
+' Formats document to meet IEEE standards for two column document.
+' Sets font to Times New Roman
+' Sets text to justified
+' Column width 3.5" with 0.24" between
+' Margins set to 0.75", 1", 0.63", 0.63"
 '
     Selection.WholeStory
     With ActiveDocument.Styles(wdStyleNormal).Font
